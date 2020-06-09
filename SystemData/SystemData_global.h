@@ -1,0 +1,12 @@
+#ifndef SYSTEMDATA_GLOBAL_H
+#define SYSTEMDATA_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(SYSTEMDATA_LIBRARY)
+#  define SYSTEMDATA_EXPORT Q_DECL_EXPORT
+#else
+#  define SYSTEMDATA_EXPORT Q_DECL_IMPORT
+#endif
+
+#endif // SYSTEMDATA_GLOBAL_H

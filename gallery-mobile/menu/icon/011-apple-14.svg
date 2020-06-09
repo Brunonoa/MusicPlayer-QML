@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<path style="fill:#57565C;" d="M407,512H105C47.103,512,0,464.897,0,407V105C0,47.103,47.103,0,105,0h302
+	c57.897,0,105,47.103,105,105v302C512,464.897,464.897,512,407,512z"/>
+<path style="fill:#3E3D42;" d="M407,0H256v512h151c57.897,0,105-47.103,105-105V105C512,47.103,464.897,0,407,0z"/>
+<polygon style="fill:#FF6849;" points="426,106 446,46 386,66 "/>
+<g>
+	<rect x="241" y="60" style="fill:#FFFFFF;" width="30" height="50"/>
+	
+		<rect x="172.506" y="80.306" transform="matrix(-0.342 -0.9397 0.9397 -0.342 175.4933 313.4969)" style="fill:#FFFFFF;" width="50" height="30"/>
+	
+		<rect x="121.084" y="110.004" transform="matrix(-0.6428 -0.766 0.766 -0.6428 144.2324 317.2601)" style="fill:#FFFFFF;" width="49.999" height="29.998"/>
+	
+		<rect x="82.91" y="155.498" transform="matrix(-0.866 -0.5 0.5 -0.866 116.11 372.1074)" style="fill:#FFFFFF;" width="49.999" height="29.999"/>
+	
+		<rect x="62.588" y="211.313" transform="matrix(-0.9848 -0.1737 0.1737 -0.9848 134.5349 464.4002)" style="fill:#FFFFFF;" width="50" height="30"/>
+	
+		<rect x="62.613" y="270.683" transform="matrix(-0.9848 0.1737 -0.1737 -0.9848 223.517 551.8057)" style="fill:#FFFFFF;" width="50" height="30"/>
+	
+		<rect x="82.91" y="326.495" transform="matrix(-0.866 0.5 -0.5 -0.866 372.1116 583.2795)" style="fill:#FFFFFF;" width="49.999" height="29.999"/>
+	
+		<rect x="131.089" y="362.016" transform="matrix(0.766 0.6428 -0.6428 0.766 282.9619 -3.354)" style="fill:#FFFFFF;" width="29.998" height="49.999"/>
+	
+		<rect x="182.508" y="391.688" transform="matrix(0.9397 0.342 -0.342 0.9397 154.417 -42.4214)" style="fill:#FFFFFF;" width="30" height="50"/>
+	<rect x="241" y="402" style="fill:#FFFFFF;" width="30" height="50"/>
+</g>
+<g>
+	
+		<rect x="289.501" y="401.696" transform="matrix(0.342 0.9397 -0.9397 0.342 598.5107 -21.3508)" style="fill:#F2F2F2;" width="50" height="30"/>
+	
+		<rect x="340.891" y="372.009" transform="matrix(0.6428 0.766 -0.766 0.6428 427.1462 -142.0466)" style="fill:#F2F2F2;" width="49.999" height="29.998"/>
+	
+		<rect x="379.109" y="326.506" transform="matrix(0.866 0.5 -0.5 0.866 224.8995 -156.3032)" style="fill:#F2F2F2;" width="49.999" height="29.999"/>
+	
+		<rect x="399.425" y="270.684" transform="matrix(0.9848 0.1737 -0.1737 0.9848 56.0751 -69.3798)" style="fill:#F2F2F2;" width="50" height="30"/>
+	
+		<rect x="399.401" y="211.328" transform="matrix(0.9848 -0.1737 0.1737 0.9848 -32.8617 77.1588)" style="fill:#F2F2F2;" width="50" height="30"/>
+	
+		<rect x="379.099" y="155.502" transform="matrix(0.866 -0.5 0.5 0.866 -31.1114 224.8975)" style="fill:#F2F2F2;" width="49.999" height="29.999"/>
+	
+		<rect x="350.909" y="100.011" transform="matrix(-0.766 -0.6428 0.6428 -0.766 565.8417 455.9832)" style="fill:#F2F2F2;" width="29.998" height="49.999"/>
+	
+		<rect x="299.494" y="70.308" transform="matrix(-0.9397 -0.342 0.342 -0.9397 577.429 292.4267)" style="fill:#F2F2F2;" width="30" height="50"/>
+</g>
+<path style="fill:#FFFFFF;" d="M256,171c-46.869,0-85,38.131-85,85s38.131,85,85,85s85-38.131,85-85S302.869,171,256,171z
+	 M308.904,241H271v-37.904C289.285,208.289,303.711,222.715,308.904,241z M241,203.096V241h-37.904
+	C208.289,222.715,222.715,208.289,241,203.096z M203.096,271H241v37.904C222.715,303.711,208.289,289.285,203.096,271z M271,308.904
+	V271h37.904C303.711,289.285,289.285,303.711,271,308.904z"/>
+<g>
+	<rect x="256" y="60" style="fill:#F2F2F2;" width="15" height="50"/>
+	<path style="fill:#F2F2F2;" d="M256,171v170c46.869,0,85-38.131,85-85S302.869,171,256,171z M271,308.904V271h37.904
+		C303.711,289.285,289.285,303.711,271,308.904z M271,241v-37.904c18.285,5.192,32.711,19.619,37.904,37.904H271z"/>
+	<rect x="256" y="402" style="fill:#F2F2F2;" width="15" height="50"/>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+<g>
+</g>
+</svg>
