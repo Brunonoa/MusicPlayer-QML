@@ -1,4 +1,0 @@
-module com.tsts.comps
-plugin MockupVirtualKeyboard
-typeinfo plugins.qmltypes
-InputPanel 1.0 InputPanel.qml
