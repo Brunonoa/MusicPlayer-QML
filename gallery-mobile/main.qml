@@ -17,6 +17,14 @@ ApplicationWindow {
     height: 1360
     color: Style.windowBackground
 
+    Item {
+        focus: true
+        Keys.onEscapePressed: {
+            Qt.quit()
+            event.accepted = true;
+        }
+    }
+
     StackView {
         id: stackView
         anchors.fill: parent

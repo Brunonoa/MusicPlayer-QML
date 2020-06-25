@@ -51,6 +51,10 @@ int main(int argc, char *argv[])
     app.setOrganizationName("davideTech");
     app.setOrganizationDomain("World");
 
+    // Handle touch events as mouse ones
+    app.setAttribute(Qt::AA_SynthesizeMouseForUnhandledTouchEvents, true);
+    QObject::connect(static_cast<QObject*>(&engine), SIGNAL(quit()), &app, SLOT(quit()));
+
     //qDebug()<<QLibraryInfo::location(QLibraryInfo::PluginsPath);
     //qDebug()<<QCoreApplication::applicationDirPath();
 

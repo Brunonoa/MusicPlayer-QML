@@ -51,9 +51,11 @@ Rectangle
                        color: "WHITE"
                        font.pointSize: 20
                    }
+
                    MouseArea {
                        anchors.fill: parent
                        onClicked: {
+                           console.log(name)
                             if(name=="Shutdown") {
                                 systemCall.shutdown();
                             }
