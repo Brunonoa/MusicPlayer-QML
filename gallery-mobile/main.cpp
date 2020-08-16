@@ -7,6 +7,9 @@
 #include <QtMultimedia/QMediaPlaylist>
 #include <QDebug>
 #include <QFont>
+#include <QAudioDeviceInfo>
+#include <QAudioOutputSelectorControl>
+#include <QMediaService>
 
 #include "pwm.h"
 #include "videocamera.h"
@@ -61,6 +64,31 @@ int main(int argc, char *argv[])
     engine.load(QUrl(QStringLiteral("qrc:/main.qml")));
     if (engine.rootObjects().isEmpty())
            return -1;
+
+    QList<QAudioDeviceInfo> devices = QAudioDeviceInfo::availableDevices(QAudio::AudioOutput);
+    foreach (QAudioDeviceInfo i, devices){
+        qDebug()<<i.deviceName();
+    }
+
+
+    QMediaPlayer *playMusicObj = new QMediaPlayer();
+    playMusicObj->setMedia(QUrl::fromLocalFile("/home/davide/Musica/Music/City Hunter - Footsteps.mp3"));
+    QMediaService *svc = playMusicObj->service();
+    if (svc != nullptr)
+    {
+        QAudioOutputSelectorControl *out = qobject_cast<QAudioOutputSelectorControl *>
+                                           (svc->requestControl(QAudioOutputSelectorControl_iid));
+        if (out != nullptr)
+        {
+            qDebug()<<"VIAVAVAVAAAAA!!!!";
+            out->setActiveOutput(devices.at(1).deviceName());
+            svc->releaseControl(out);
+            playMusicObj->setVolume(1);
+            playMusicObj->play();
+        }
+        else
+            qDebug()<<"CHE SCHIFOOOOOOO!!!!";
+    }
 
     AlbumModel albumModel;
     PictureModel pictureModel(albumModel);

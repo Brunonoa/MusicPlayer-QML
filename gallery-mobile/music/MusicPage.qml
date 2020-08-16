@@ -32,7 +32,7 @@ PageTheme {
         id: playMusic
         autoLoad: true
         autoPlay: true
-        playlist: Playlist {id:playerList;}
+        playlist: Playlist { id:playerList; }
         Component.onCompleted: volumeMeter.initVolume(playMusic);
     }
 

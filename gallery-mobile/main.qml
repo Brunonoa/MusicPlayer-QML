@@ -17,19 +17,25 @@ ApplicationWindow {
     height: 1360
     color: Style.windowBackground
 
-    Item {
-        focus: true
-        Keys.onEscapePressed: {
-            Qt.quit()
-            event.accepted = true;
-        }
-    }
-
     StackView {
         id: stackView
         anchors.fill: parent
         initialItem: Menu {}
+
+        onCurrentItemChanged: {
+            if (currentItem) {
+                currentItem.forceActiveFocus();
+                console.log(activeFocusItem);
+            }
+        }
     }
+
+    /*KeyboardButton {
+        focus: true
+        onKeyboardButtonPressed: {
+            if(keycode == Qt.Key_Escape) Qt.quit();
+        }
+    }*/
 
     BusyIndicator {
         id: busyIndicator

@@ -24,6 +24,9 @@ LIBS            +=	-L$$OUT_PWD/../gallery-core/	-lgallery-core \
                         -L$$OUT_PWD/../SystemData/	-lSystemData \
                         -L$$OUT_PWD/../opencv/          -lopencv \
                         -L$$OUT_PWD/../Pinout/          -lPinout
+
+LIBS            +=      -lasound -lgstreamer-1.0 -lpthread
+
 INCLUDEPATH	+=	$$PWD/../gallery-core   $$PWD/../SystemData     $$PWD/../playListModel     $$PWD/../opencv      $$PWD/../Pinout
 DEPENDPATH	+=	$$PWD/../gallery-core   $$PWD/../SystemData     $$PWD/../playListModel     $$PWD/../opencv      $$PWD/../Pinout
 
@@ -60,3 +63,8 @@ DISTFILES += \
     time/Spinner.qml \
     time/TimeBackground.qml \
     time/TimePage.qml
+
+unix:!macx: LIBS += -L$$PWD/../../../../../../../opt/b2qt/2.5.1.W/sysroots/arm1176jzfshf-vfp-poky-linux-gnueabi/usr/lib/plugins/audio/ -lqtaudio_alsa
+
+INCLUDEPATH += $$PWD/../../../../../../../opt/b2qt/2.5.1.W/sysroots/arm1176jzfshf-vfp-poky-linux-gnueabi/usr/lib/plugins/audio
+DEPENDPATH += $$PWD/../../../../../../../opt/b2qt/2.5.1.W/sysroots/arm1176jzfshf-vfp-poky-linux-gnueabi/usr/lib/plugins/audio

@@ -166,6 +166,6 @@
         <file>fonts/comic-sans-ms.ttf</file>
         <file>gallery/image/background.bmp</file>
         <file>music/image/music.jpg</file>
-        <file>menu/icon/shutdown.png</file>
+        <file>res/music/Mundialito - Oliver Onions, L_allenatore nel pallone.mpg.mp3</file>
     </qresource>
 </RCC>
